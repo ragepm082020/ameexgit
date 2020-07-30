@@ -1,0 +1,24 @@
+
+
+
+We need to call enable/disable with an emitEvent argument set to false (coding as follows):
+
+export class AppComponent implements OnInit  {
+  inputControl = new FormControl('Default Value 1');
+
+  ngOnInit() {
+    this.inputControl.valueChanges.subscribe(console.log);
+  }
+
+  toggle() {   
+   if(this.inputControl.enabled){    
+     this.inputControl.disable({emitEvent: false});
+   } else {
+     this.inputControl.enable();
+   }
+   
+  }
+}
+
+
+
