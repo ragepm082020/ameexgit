@@ -1,7 +1,7 @@
 {
 	"name": "node-fetch1",
 	"version": "3.0.0-beta.7",
-	"description": "A light-weight module that brings Fetch API to node.js",
+	"description": "..",
 	"main": "./dist/index.cjs",
 	"module": "./src/index.js",
 	"sideEffects": false,	
@@ -28,7 +28,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/node-fetch/node-fetch.git"
+		"url": ""
 	},
 	"keywords": [
 		"fetch",
@@ -43,12 +43,12 @@
 	"author": "David Frank",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/node-fetch/node-fetch/issues"
+		"url": ""
 	},
-	"homepage": "https://github.com/node-fetch/node-fetch",
+	"homepage": "",
 	"funding": {
 		"type": "opencollective",
-		"url": "https://opencollective.com/node-fetch"
+		"url": "",
 	},
 	"devDependencies": {
 		"abort-controller": "^3.0.0",
